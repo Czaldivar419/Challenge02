@@ -4,9 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    
+    <div class="portfolio">
+        <p>Portfolio</p>
+    </div>
+
+    
+<section class="intro">
+    <div class="intro">
+        <h1>Hey there! I'm Christian Zaldivar, an aspiring web designer currently enrolled in a Coding Bootcamp
+            at the University of California, Riverside Extension.</h1>
+    </div>
+</section>
+
+
+<div class="projects">
+    <div id="projects"></div>
+    <h2>Projects</h2>
+        <div class="project-text">
+            <p> I have currently completed a class challenge project that required me to recode a sample webpage in order
+                to increase its accessibility.
+            </p>
+        </div>
+</div>
+
+<div class="row">
+    <div class="column">
+        <a href="https://czaldivar419.github.io/Challenge01/">
+            <img src="./Screenshot 2022-09-16 120704.png" alt="Screenshot1" style="width:100%">
+        </a>
+            <figcaption>
+                HTML/CSS Acessibility Challenge
+            </figcaption>
+    </div>
+<div class="column">
+    <a href="https://czaldivar419.github.io/Challenge01/">
+        <img src="./Screenshot 2022-09-16 120804.png" alt="Screenshsot2" style="width:100%">
+    </a>
+        <figcaption>
+            HTML/CSS Acessibility Challenge
+        </figcaption>
+    </div>
+  </div>
+
+<section class="aboutme">
+    <div id="about-me"></div>
+    <div class="aboutme">
+     <h2>About Me</h2>
+        <div class="abtext">
+            <p>I am a 24 year old student currently enrolled the U.C. Riverside Extension Web Development Bootcamp.
+                My hobbies outside of my class include going to the gym and playing golf. I hope to secure a position as 
+                a web developer following the conclusion of the course.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="contactme">
+    <h3>Contact</h3>
+        <div class="contact-text">
+            <p>Send me an email message and I'll get back to you ASAP. Hope to hear from you!</p>
+        </div>
+</section>
+
+<section class="contact-form">
+    <div id="contact"></div>
+  <form target="_blank" action="https://formsubmit.co/czaldivar419@df2025a9e5428e4b0f59629c054cd4b4" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+  </form>
+</div>
+
+</section>
+
+
+
+    
     
 </body>
 </html>
