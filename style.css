@@ -14,8 +14,6 @@ h3 {
 
 }
 
-
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,6 +41,15 @@ ul {
   li a:hover:not(.active) {
     background-color: white;
   }
+
+#hola {
+  width: 1100px;
+  position: absolute;
+  right: -250px;
+  bottom: -300px;
+  margin: 0;
+  padding: 0;
+}
 
   .portfolio {
     position: absolute;
@@ -132,6 +139,8 @@ ul {
   position: relative;
   left: 100px;
 }
+
+
 @media screen and (max-width: 768px) {
   main,
   body,
